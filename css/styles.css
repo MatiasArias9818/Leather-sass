@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: linear-gradient(rgba(5, 7, 12, 0.9), rgba(5, 7, 12, 0.9)), url(../assets/background.jpg);
+  background-size: cover;
+  font-family: bahnschrift;
+}
+
+.container {
+  margin: 100px;
+  color: #fff;
+}
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  font: bold;
+}
+.container p {
+  font: normal 15px bahnschrift;
+  padding: 0;
+  margin: 0;
+}
+.container .art {
+  margin-bottom: 20px;
+}
+
+.btn-submit {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #fe4a49;
+  font: bold 15px bahnschrift;
+}
+
+.header {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  background-color: #525152;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+.header h1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: bahnschrift;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  font-family: bahnschrift;
+  font-size: small;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font: lighter 10px bahnschrift;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
