@@ -1,0 +1,8 @@
+@mixin form($width, $height) {
+  width: $width;
+  height: $height;
+}
+@mixin font($size, $family) {
+  font-size: $size;
+  font-family: $family;
+}

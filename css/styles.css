@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: linear-gradient(rgba(5, 7, 12, 0.9), rgba(5, 7, 12, 0.9)), url(../assets/background.jpg);
+  background: linear-gradient(rgba(5, 7, 12, 0.9), rgba(5, 7, 12, 0.9)),
+    url(../assets/background.jpg);
   background-size: cover;
   font-family: bahnschrift;
 }
@@ -16,9 +17,10 @@ body {
   font: bold;
 }
 .container p {
-  font: normal 15px bahnschrift;
   padding: 0;
   margin: 0;
+  font-size: 15px;
+  font-family: bahnschrift;
 }
 .container .art {
   margin-bottom: 20px;
@@ -33,11 +35,11 @@ body {
   border: none;
   color: #fff;
   background-color: #fe4a49;
-  font: bold 15px bahnschrift;
+  font-size: 15px;
+  font-family: bahnschrift;
 }
 
 .header {
-  width: auto;
   max-width: 100%;
   margin: 0 auto;
   margin-top: 0;
@@ -47,12 +49,12 @@ body {
   background-color: #525152;
   display: flex;
   justify-content: space-between;
+  width: auto;
   height: 70px;
 }
 .header h1 {
   display: flex;
   justify-content: space-around;
-  font-family: bahnschrift;
 }
 
 .menu {
@@ -60,10 +62,10 @@ body {
   list-style: none;
 }
 .menu li {
-  font-family: bahnschrift;
-  font-size: small;
   padding-top: 15px;
   padding-left: 5px;
+  font-size: small;
+  font-family: bahnschrift;
 }
 
 .show {
@@ -72,17 +74,18 @@ body {
 .show .slide {
   margin: 0;
   margin-bottom: 20px;
-  width: 300px;
-  height: 200px;
   max-width: fit-content;
   opacity: 0.8;
+  width: 300px;
+  height: 200px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  font: lighter 10px bahnschrift;
-  color: white;
+  font-size: 10px;
+  font-family: bahnschrift;
+  color: #fff;
 }
 
 /*# sourceMappingURL=styles.css.map */
